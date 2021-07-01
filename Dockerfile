@@ -1,3 +1,4 @@
+FROM registry.connect.redhat.com/intel/openvino-runtime
 FROM python:latest
 WORKDIR /app
 #COPY ./requirements.txt /app
