@@ -1,5 +1,6 @@
 FROM registry.connect.redhat.com/intel/openvino-runtime
 #FROM python:latest
+USER root
 RUN yum install -y python3
 WORKDIR /app
 #COPY ./requirements.txt /app
